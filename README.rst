@@ -92,7 +92,7 @@ Examples
 
 In the following you can see some examples of animations that have been generated using our models.
 
-.. image:: data/examples/gif/31_logo.svg
+.. image:: data/examples/gif/31_logo.gif
 
 .. list-table::
    :class: borderless
