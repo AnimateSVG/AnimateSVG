@@ -111,7 +111,7 @@ In the following you can see some examples of animations that have been generate
    :class: borderless
 
    * - .. image:: data/examples/gif/17_logo.gif
-     - .. image:: data/examples/gif/18_logo.gif
+     - .. image:: data/examples/gif/30_logo.gif
      - .. image:: data/examples/gif/19_logo.gif
 
 .. list-table::
@@ -131,15 +131,9 @@ In the following you can see some examples of animations that have been generate
 .. list-table::
    :class: borderless
 
-   * - .. image:: data/examples/gif/26_logo.gif
+   * - .. image:: data/examples/gif/29_logo.gif
      - .. image:: data/examples/gif/27_logo.gif
      - .. image:: data/examples/gif/28_logo.gif
-
-.. list-table::
-   :class: borderless
-
-   * - .. image:: data/examples/gif/29_logo.gif
-     - .. image:: data/examples/gif/30_logo.gif
 
 .. image:: data/examples/gif/1_logo.gif
 .. image:: data/examples/gif/2_logo.gif
