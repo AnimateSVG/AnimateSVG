@@ -34,7 +34,7 @@
                     d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "
                   />
                 </svg> -->
-                Animate Logos
+                SVG Logo Animation
             </a>
         </div>
         <div class="block lg:hidden pr-4">
@@ -75,18 +75,12 @@
     <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-            <p class="uppercase tracking-loose w-full">SVG Logo Animation</p>
             <h1 class="my-4 text-5xl font-bold leading-tight">
-                Animate your logo automatically with machine learning
+                Animate your logo automatically using the power of Artificial Intelligence
             </h1>
             <p class="leading-normal text-2xl mb-8">
-                Upload your SVG logo and receive two animated versions of your logo free of charge.
+                Upload your SVG logo and watch it coming to life.
             </p>
-            <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-                    onclick="location.href = '{{ url_for('redirect_button') }}';"
-            >
-                Animate your logo
-            </button>
         </div>
         <!--Right Col-->
         <div class="w-full md:w-3/5 py-6 text-center">
@@ -199,11 +193,11 @@
         <div class="flex flex-wrap">
             <div class="w-5/6 sm:w-1/2 p-6">
                 <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                    You upload your Logo
+                    Upload your logo
                 </h3>
                 <p class="text-gray-600 mb-8">
-                    You can upload the logo as SVG on our website. Our technology will pre-process your SVG into a
-                    format that the machine learning algorithm understands.
+                    You can upload the logo in SVG format. Our service transforms it into a language that our AI
+                    algorithms can understand.
                     <br/>
                     <br/>
                 </p>
@@ -467,11 +461,10 @@
             <div class="w-full sm:w-1/2 p-6 mt-6">
                 <div class="align-middle">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Our machine learning algorithm creates matching animations of your logo
+                        Let the AI do the job
                     </h3>
                     <p class="text-gray-600 mb-8">
-                        Our computational creativity model finds suitable animations for the logo, which are then
-                        inserted into the logo.
+                        Our powerful algorithms create aesthetic animations of your logo.
                         <br/>
                         <br/>
                     </p>
@@ -481,11 +474,11 @@
         <div class="flex flex-wrap">
             <div class="w-5/6 sm:w-1/2 p-6">
                 <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                    You download your favourite animation
+                    Download your favourite animation
                 </h3>
                 <p class="text-gray-600 mb-8">
-                    You will be shown two different animated versions of your logo. You can then download your preferred
-                    animations.
+                    You will be presented two different animated versions of your logo. Download your preferred one and
+                    embed it into your digital content!
                     <br/>
                     <br/>
                 </p>
@@ -529,6 +522,9 @@
                 </svg>
             </div>
         </div>
+        <h3 class="text-2xl text-gray-800 font-bold leading-none mb-3 text-center">
+            Don't forget to give feedback to our AI and tell us how you like the animations!
+        </h3>
     </div>
 </section>
 
@@ -571,9 +567,6 @@
     <h3 class="my-4 text-3xl leading-tight">
         Upload an SVG logo and get two animated versions for free!
     </h3>
-    <p class="text-xl leading-none mb-3">
-        Please note that processing your logo can take up to a few minutes. Do not refresh this page in the meantime.
-    </p>
     <form enctype=multipart/form-data method=post>
         <input class="mx-auto lg:mx-0 bg-transparent text-gray-800 font-bold rounded-full my-6 py-4 px-8  transform transition "
                name=file
