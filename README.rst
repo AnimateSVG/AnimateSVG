@@ -3,7 +3,7 @@ SVG Logo Animation using Machine Learning
 
 This project allows to automatically animate logos in SVG format using machine learning.
 
-Its functionality include extracting SVG information (e.g., size, position, color), get SVG embeddings of logos by using  `DeepSVG <https://github.com/alexandre01/deepsvg/>`__'s hierarchical generative network, and an entire pipeline that takes an unprocessed logo as input and outputs an animated logo created with two different machine learning models.
+Its functionality includes extracting SVG information (e.g., size, position, color), get SVG embeddings of logos by using  `DeepSVG <https://github.com/alexandre01/deepsvg/>`__'s hierarchical generative network, and an entire pipeline that takes an unprocessed logo as input and outputs an animated logo created with two different machine learning models.
 
 
 Table of Contents
@@ -14,7 +14,7 @@ Table of Contents
 Description
 #################
 
-Animations play an increasing role in modern graphic design in the constant battle for attention in digital media, thus, posing the challenge of automating said design task. With scalable vector graphics as the standard format in modern graphic design, we develop an autonomous end-to-end method using complex machine learning techniques to create brand logo animations in scalable vector graphics format from scratch. We acquire data and setup a comprehensive animation space to create novel animations and evaluate them based on their aesthetics. We propose and compare two alternative computational models that tackle automated logo animation and carefully weigh up their idiosyncrasies: on the one hand, we set up an aesthetics evaluation model to train an animation generator and, on the other hand, we combine tree ensembles with global optimization. Indeed, our proposed methods are capable of creating aesthetically pleasing logo animations that can directly be embedded in digital media designs.
+In the light of the constant battle for attention on digital media, animating digital content plays an increasing role in modern graphic design. In this study, we use artificial intelligence methods to create aesthetic animations along the case of brand logos. With scalable vector graphics as the standard format in modern graphic design, we develop an autonomous end-to-end method using complex machine learning techniques to create brand logo animations as scalable vector graphics from scratch. We acquire data and setup a comprehensive animation space to create novel animations and evaluate them based on their aesthetics. We propose and compare two alternative computational models for automated logo animation and carefully weigh up their idiosyncrasies: on the one hand, we set up an aesthetics evaluation model to train an animation generator and, on the other hand, we combine tree ensembles with global optimization. Indeed, our proposed methods are capable of creating aesthetic logo animations, receiving an average rating of ‘good’ from observers.
 
 At the bottom of this documentation you can find some animations that have been generated using our models.
 
@@ -58,12 +58,11 @@ If there are problems with cairosvg please refer to `this guide <https://cairosv
 
     $ conda install pytorch torchvision torchaudio -c pytorch-nightly 
 
-Besides the code of this repository one other installation is necessary, to use the application.
 For training our optimization model for the generation of logo animations, we use the commercial `Gurobi Optimizer <https://www.gurobi.com/>`__
 with a `free academic licence <https://www.gurobi.com/academia/academic-program-and-licenses/>`__. You can find a detailed
 guide to install Gurobi on your computer `here <https://www.gurobi.com/documentation/9.1/quickstart_mac/software_installation_guid.html#section:Installation/>`__.
 
-For completeness you would need the `labeling website <https://animate-logos.web.app/>`__ where users can rate the quality of animations.
+For completeness, the `labeling website <https://animate-logos.web.app/>`__ where users can rate the quality of animations, is needed.
 
 
 How to Use
@@ -96,7 +95,7 @@ In the following you can see some examples of animations that have been generate
 .. list-table::
    :class: borderless
 
-   * - .. image:: data/examples/gif/0_logo.gif
+   * - .. image:: data/examples/gif/23_logo.gif
      - .. image:: data/examples/gif/12_logo.gif
      - .. image:: data/examples/gif/13_logo.gif
 
@@ -118,7 +117,7 @@ In the following you can see some examples of animations that have been generate
    :class: borderless
 
    * - .. image:: data/examples/gif/20_logo.gif
-     - .. image:: data/examples/gif/23_logo.gif
+     - .. image:: data/examples/gif/0_logo.gif
      - .. image:: data/examples/gif/22_logo.gif
 
 .. list-table::
@@ -144,5 +143,4 @@ In the following you can see some examples of animations that have been generate
 .. image:: data/examples/gif/7_logo.gif
 .. image:: data/examples/gif/8_logo.gif
 .. image:: data/examples/gif/9_logo.gif
-.. image:: data/examples/gif/10_logo.gif
 .. image:: data/examples/gif/11_logo.gif
