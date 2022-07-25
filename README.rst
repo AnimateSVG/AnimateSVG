@@ -28,7 +28,7 @@ To use this code you have to follow these steps:
 
 .. code-block::
 
-    $  git clone 
+    $  git clone https://github.com/AnimateSVG/AnimateSVG.git
     $  cd animate_logos
 
 2. Continue by creating a new conda environment (Python 3.7):
